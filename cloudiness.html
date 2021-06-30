@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cloudiness</title>
+        <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+    </head>     
+      
+      <body class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+      
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-7 mt-5">
+                <div class="card">
+                    <h4 class="card-header text-info">Cloudiness</h4>
+                    <div class="card-body">
+                        <img id="img-wrap" class="img-fluid img-center" src="Images/Capture Cloudiness.PNG" Title="Cloudiness" width="500">
+                        <p class="card-text font-weight-light">There is no to low correlation with latitude and cloudiness. This chart is way way to scattered to show much correlation</p>
+                    </div>
+                </div>
+            </div>      </div>
+        </div>
+        <div class="col-md-12 col-lg-5 mt-5">
+            <div class="card">
+                <h4 class="card-header text-info">Visualizations</h4>
+                <div class="card-body">
+
+                    <div class="row pb-3">
+                        <div class="col-md-6">
+                            <a href="temperature.html"><img class="img-fluid img-center viz-box" src="Images/Capture Max Temp.PNG" title="Latitude versus Maximum Temperature" width="400"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="humidity.html"><img class="img-fluid img-center viz-box" src="Images/Capture humidity.PNG" title="Latitude versus Humidity" width="400"></a>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-md-6">
+                            <a href="cloudiness.html"><img class="img-fluid img-center viz-box" src="Images/Capture Cloudiness.PNG" title="Latitude versus Cloudiness" width="400"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="windspeed.html"><img class="img-fluid img-center viz-box" src="Images/Capture windspeed.PNG" title="Latitude versus Wind Speed" width="400"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
