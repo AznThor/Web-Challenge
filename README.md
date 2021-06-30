@@ -1,4 +1,4 @@
 # Web-Challenge
 
 
-https://aznthor.github.io/AznThor/
+https://aznthor.github.io/AznThor/Web-Challenge
